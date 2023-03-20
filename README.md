@@ -22,27 +22,27 @@ By accessing the video recording of this project, you acknowledge and agree that
 
 2. Now you need to clone my repository to your machine in order to be able to use it. For this, I will use Git Bash, but you can use any method that you want for cloning the repository.
 
-	- First, change your directory to where you want to clone this repository. For test purposes, I changed my directory to Desktop.
+  * First, change your directory to where you want to clone this repository. For test purposes, I changed my directory to Desktop.
 
   ![image](https://user-images.githubusercontent.com/64825806/226467606-2cff338c-b6f0-43b6-95b4-49516314345e.png)
 
-	- Use “git clone repositoryName” command to clone the repository.
+  * Use “git clone repositoryName” command to clone the repository.
 	
   ![image](https://user-images.githubusercontent.com/64825806/226467643-4ff74e4e-2667-4c1d-9a46-6291c6c4366c.png)
 
-	- Change your current directory to “repositoryName” and run “docker-compose up” command to run NaiveChain via docker.
+  * Change your current directory to “repositoryName” and run “docker-compose up” command to run NaiveChain via docker.
 	
   ![image](https://user-images.githubusercontent.com/64825806/226467675-e9b8b8fb-60f1-498e-b6cc-ed5521df42ed.png)
 
-	- Now, you will see this on your Docker Desktop application page. This means naivechain and nodes are running.
+  * Now, you will see this on your Docker Desktop application page. This means naivechain and nodes are running.
 	
   ![image](https://user-images.githubusercontent.com/64825806/226467706-c77c1138-7735-4370-bfe0-c132bc598871.png)
 
-	- Now, you need to run the NS Voting System application. For this, open new command prompt, and change your directory to “repositoryName\myProgram”, and run “main.py” (I assume you have python installed on your machine, if not then you need to install it).
+  * Now, you need to run the NS Voting System application. For this, open new command prompt, and change your directory to “repositoryName\myProgram”, and run “main.py” (I assume you have python installed on your machine, if not then you need to install it).
 	
   ![image](https://user-images.githubusercontent.com/64825806/226467732-f35a7a60-dd9f-4d5c-92f0-8d3017fd09f3.png)
 
-	- After this step, you have successfully installed and executed the application. It is ready for you to use it.
+  * After this step, you have successfully installed and executed the application. It is ready for you to use it.
 	
 ## Run Locally
 In this application, user has 4 options:
@@ -57,13 +57,13 @@ In this application, user has 4 options:
 
 ![image](https://user-images.githubusercontent.com/64825806/226467805-01637b4e-e571-4931-8d7b-d1b68b868299.png)
 
-	This page displays current vote count to inform voters. They can see instant changes here.
+  * This page displays current vote count to inform voters. They can see instant changes here.
 	
 3. Get Blockchain (Admin): This option is developed for Admins to see entire blockchain in order to investigate more about nodes and data in them.
 
 ![image](https://user-images.githubusercontent.com/64825806/226467832-4f1d6631-a85c-4752-920f-55274f429d36.png)
 
-	Admin can see entire blockchain here, and investigate if something goes wrong. The format of data “VoterID#x#y”, this means x is the votedID and y is the id of candidate that user voted for.
+  * Admin can see entire blockchain here, and investigate if something goes wrong. The format of data “VoterID#x#y”, this means x is the votedID and y is the id of candidate that user voted for.
 	
 4. Exit: This option allows users to exit from the program. It will display good-bye message.
 
