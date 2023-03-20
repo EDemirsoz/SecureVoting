@@ -51,19 +51,19 @@ In this application, user has 4 options:
 
 ![image](https://user-images.githubusercontent.com/64825806/226467774-1a02c5a0-37b4-49ca-9787-7ab70604eb70.png)
 
-	- As you can see, there is a list of candidates, and user is prompted to select one of the candidates from list and enter their voterID. If user selects candidate out of range or enters voterID that is out of range or voterID that has already been used to vote, the program will display information message and allow them to make those selections again. Otherwise, will display voterID and voted for which candidate to confirm their vote.
+	As you can see, there is a list of candidates, and user is prompted to select one of the candidates from list and enter their voterID. If user selects candidate out of range or enters voterID that is out of range or voterID that has already been used to vote, the program will display information message and allow them to make those selections again. Otherwise, will display voterID and voted for which candidate to confirm their vote.
 	
 2. See Current Results: This option allows users to see total vote count, and the distribution of votes.
 
 ![image](https://user-images.githubusercontent.com/64825806/226467805-01637b4e-e571-4931-8d7b-d1b68b868299.png)
 
-	- This page displays current vote count to inform voters. They can see instant changes here.
+	This page displays current vote count to inform voters. They can see instant changes here.
 	
 3. Get Blockchain (Admin): This option is developed for Admins to see entire blockchain in order to investigate more about nodes and data in them.
 
 ![image](https://user-images.githubusercontent.com/64825806/226467832-4f1d6631-a85c-4752-920f-55274f429d36.png)
 
-	- Admin can see entire blockchain here, and investigate if something goes wrong. The format of data “VoterID#x#y”, this means x is the votedID and y is the id of candidate that user voted for.
+	Admin can see entire blockchain here, and investigate if something goes wrong. The format of data “VoterID#x#y”, this means x is the votedID and y is the id of candidate that user voted for.
 	
 4. Exit: This option allows users to exit from the program. It will display good-bye message.
 
