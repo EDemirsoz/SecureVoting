@@ -51,7 +51,7 @@ In this application, user has 4 options:
 
 ![image](https://user-images.githubusercontent.com/64825806/226467774-1a02c5a0-37b4-49ca-9787-7ab70604eb70.png)
 
-	As you can see, there is a list of candidates, and user is prompted to select one of the candidates from list and enter their voterID. If user selects candidate out of range or enters voterID that is out of range or voterID that has already been used to vote, the program will display information message and allow them to make those selections again. Otherwise, will display voterID and voted for which candidate to confirm their vote.
+	..* As you can see, there is a list of candidates, and user is prompted to select one of the candidates from list and enter their voterID. If user selects candidate out of range or enters voterID that is out of range or voterID that has already been used to vote, the program will display information message and allow them to make those selections again. Otherwise, will display voterID and voted for which candidate to confirm their vote.
 	
 2. See Current Results: This option allows users to see total vote count, and the distribution of votes.
 
